@@ -16,7 +16,7 @@ body {
 /* Centraliza os elementos na tela */
 .container {
     text-align: center; /* Alinhamento do texto no container */
-    background-color: rgb(178, 238, 231); /* Cor do fundo do conteiner */
+    background-color: rgb(27, 100, 201); /* Cor do fundo do conteiner */
     padding: 30px; /* Espaçamento dos itens-borda */
     border-radius: 10px; /* Arredonda as borda do conteiner */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efeito de sombreamento */
@@ -29,7 +29,7 @@ body {
     cursor: pointer; /* Estilo do cursor do mouse será uma "mãozinha" */
     border: none; /* Borda */
     border-radius: 5px; /* Arrendondamento das arestas do botão */
-    background-color: #28a745; /* Cor de fundo do botão */
+    background-color: #0d9597; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
     transition: all 0.3s ease; /* Efeito de transição de cor será feito em todo o botão em 0.3 segundo de forma suave */
 }
@@ -44,7 +44,7 @@ body {
     cursor: pointer; /* Estilo do cursor do mouse será uma "mãozinha" */
     border: none; /* Borda */
     border-radius: 5px; /* Arrendondamento das arestas do botão */
-    background-color: #ff2020; /* Cor de fundo do botão */
+    background-color: #4f15a7; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
     transition: all 0.3s ease; /* Efeito de transição de cor será feito em todo o botão em 0.3 segundo de forma suave */
 }
@@ -55,7 +55,7 @@ body {
 /* Oculta a mensagem de erro inicialmente */
 .oculto {
     display: none; /* Não inserimos no Display, será chamado pelo JS */
-    color: red; /* Cor do texto */
+    color: rgb(203, 242, 11); /* Cor do texto */
     font-size: 18px; /* Tamanho do texto */
     margin-top: 10px; /* Distância da margem acima */
 } 
