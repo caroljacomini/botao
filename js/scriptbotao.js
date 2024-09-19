@@ -16,6 +16,6 @@ mensagemErro.style.display = "block";
 });
 //mantém o botão SIM fixo
 botaoSim.addEventListener("click", function(){
-alert("Ótima escolha =D Minha chave pix é o número do celular!")
+alert("Ótima escolha =D\nMinha chave pix é o número do celular!")
 });
 
