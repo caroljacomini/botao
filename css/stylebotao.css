@@ -6,7 +6,7 @@
 /* Define o estilo da página */
 body {
     font-family: Arial, sans-serif; /* Define a Fonte */ 
-    background-color: #f0f0f0; /* Define uma cor fundo */
+    background-color: #101010; /* Define uma cor fundo */
     display: flex; /* Escolha de Display Flexível */
     justify-content: center; /* Modelo do Display */
     align-items: center; /* Alinhamento dos Itens */
@@ -20,6 +20,7 @@ body {
     padding: 30px; /* Espaçamento dos itens-borda */
     border-radius: 10px; /* Arredonda as borda do conteiner */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efeito de sombreamento */
+color: rgb(190, 184, 8);
 }
 /* Estilos dos botão um */
 .botao-um {
@@ -29,7 +30,7 @@ body {
     cursor: pointer; /* Estilo do cursor do mouse será uma "mãozinha" */
     border: none; /* Borda */
     border-radius: 5px; /* Arrendondamento das arestas do botão */
-    background-color: #0d9597; /* Cor de fundo do botão */
+    background-color: #2cbcbe; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
     transition: all 0.3s ease; /* Efeito de transição de cor será feito em todo o botão em 0.3 segundo de forma suave */
 }
@@ -55,7 +56,9 @@ body {
 /* Oculta a mensagem de erro inicialmente */
 .oculto {
     display: none; /* Não inserimos no Display, será chamado pelo JS */
-    color: rgb(203, 242, 11); /* Cor do texto */
-    font-size: 18px; /* Tamanho do texto */
+    color: rgb(85, 19, 32); /* Cor do texto */
+    font-size: 25px; /* Tamanho do texto */
     margin-top: 10px; /* Distância da margem acima */
+    text-decoration: solid;
+    text-decoration-line: overline underline;
 } 
